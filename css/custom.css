@@ -1,0 +1,23 @@
+
+header{
+    background-color: #329cb2;
+}
+
+@media (min-width: 768px) {
+    header{
+       background-image: url("/img/W2D3.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: fixed;
+        }
+
+    .hero{
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 10px 0;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+
